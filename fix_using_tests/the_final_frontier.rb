@@ -12,7 +12,9 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.each {|crew_member| "Hello #{crew_member}."}
+  c = []
+  crew.each {|crew_member| c << "Hello #{crew_member}."}
+  c
 end
 
 def engage
